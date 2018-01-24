@@ -17,12 +17,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Get a reference to a View (TextView) from the activity content
-        TextView tv = (TextView) findViewById(R.id.tvRuntimeId);
+        TextView tv = findViewById(R.id.tvRuntimeId);
         // Change its properties at runtime: resource ID as parameter
         tv.setText(R.string.going_on);
 
         // Get a reference to a View (TextView) from the activity content
-        tv = (TextView) findViewById(R.id.tvRuntimeString);
+        tv = findViewById(R.id.tvRuntimeString);
         // Change its properties at runtime: String as parameter
         final String newText = getResources().getString(R.string.anything_new);
         tv.setText(newText);
