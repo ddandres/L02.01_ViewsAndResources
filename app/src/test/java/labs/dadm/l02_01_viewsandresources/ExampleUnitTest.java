@@ -1,4 +1,4 @@
-package labs.sdm.l02_01_viewsandresources;
+package labs.dadm.l02_01_viewsandresources;
 
 import org.junit.Test;
 
