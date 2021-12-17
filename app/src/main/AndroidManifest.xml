@@ -8,7 +8,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="labs.dadm.l02_01_viewsandresources.MainActivity">
+        <activity
+            android:name="labs.dadm.l02_01_viewsandresources.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
